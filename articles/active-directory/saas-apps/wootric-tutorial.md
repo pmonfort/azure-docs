@@ -72,8 +72,8 @@ Follow these steps to enable Azure AD SSO in the Azure portal.
 
    ![Edit Basic SAML Configuration](common/edit-urls.png)
 
-1. On the **Basic SAML Configuration** section, the application is pre-configured and the necessary URLs are already pre-populated with Azure. The user needs to save the configuration by clicking the **Save** button.
-
+1. On the **Basic SAML Configuration** section, the application is pre-configured and the necessary URLs are already pre-populated with Azure to work with our US server. You'll still need to save the configuration by clicking the **Save** button.
+* If you are using Wootric Europe or Australia, you'll need to update "Reply URL" and "Identifier (Entity ID)" to "https://app.wootric.eu/session/sso_login" for Europe or "https://app.wootric.au/session/sso_login" for Australia.
 
 1. Wootric application expects the SAML assertions in a specific format, which requires you to add custom attribute mappings to your SAML token attributes configuration. The following screenshot shows the list of default attributes.
 
